@@ -1,0 +1,18 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: lightcoral;
+}
+li {
+  list-style: none;
+  cursor: pointer;
+}
+.nav-links {
+  justify-content: space-around;
+  align-items: center;
+}
