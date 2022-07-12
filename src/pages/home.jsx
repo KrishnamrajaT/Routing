@@ -4,9 +4,6 @@ export default function Home() {
   return (
     <div>
       <button>Home page</button>
-      <button>Home page</button>
-      <button>Home page</button>
-      <button>Home page</button>
     </div>
   );
 }
