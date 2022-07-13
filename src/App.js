@@ -6,16 +6,17 @@ import Home from "./pages/home";
 import { BrowserRouter, Route, Routes, Link } from "react-router-dom";
 import Login from "./pages/login";
 import About from "./pages/about";
+import Test from "./pages/Test";
 export default function App() {
   return (
     <div className="App">
       <BrowserRouter>
         <Nav />
-
         <Routes>
           <Route exact path="/" element={<Home />}></Route>
           <Route exact path="/Login" element={<Login />}></Route>
           <Route exact path="/About" element={<About />}></Route>
+          <Route exact path="/Test" element={<Test />}></Route>
         </Routes>
       </BrowserRouter>
     </div>
