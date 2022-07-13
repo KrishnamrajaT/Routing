@@ -11,7 +11,6 @@ export default function App() {
     <div className="App">
       <BrowserRouter>
         <Nav />
-
         <Routes>
           <Route exact path="/" element={<Home />}></Route>
           <Route exact path="/Login" element={<Login />}></Route>
